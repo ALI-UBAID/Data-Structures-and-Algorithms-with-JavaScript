@@ -24,7 +24,7 @@ More topics and solutions will be added as I continue learning.
 
 ## Goals
 
-- Improve problem-solving skills
+- Improve problem-solving skills.
 - Master Data Structures and Algorithms
 - Prepare for coding interviews
 - Write clean and optimized JavaScript solutions
