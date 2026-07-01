@@ -31,6 +31,7 @@ function sortAlgo(arr, left, mid, right) {
   }
   return arr;
 }
+//time complexity of this function: O(n) where n is the number of elements in the array.
 
 function mergeSort(arr, left, right) {
   if (left == right) {
@@ -42,6 +43,7 @@ function mergeSort(arr, left, right) {
   sortAlgo(arr, left, mid, right);
   return arr;
 }
+//time complexity of this function: O(log n) where n is the number of divisions made to the array.
 
 function main() {
   let arr = [64, 34, 25, 12, 22, 11, 90];
@@ -49,5 +51,11 @@ function main() {
   let sortedArr = mergeSort(arr, 0, arr.length - 1);
   console.log("Sorted array:", sortedArr);
 }
+
+/*time complexity: O(n log n) where n is the number of elements in the array. 
+The merge sort algorithm divides the array into halves recursively, which takes log n time, 
+and then merges the sorted halves, which takes O(n) time. Therefore, the overall time complexity is O(n log n).*/
+
+//space complexity: O(n) - additional space is required for the temporary array used in the merge process.
 
 main();
