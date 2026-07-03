@@ -1,6 +1,9 @@
 // question: Rotate an array by K places to the right
 
 // -------------------------rotate array by K places-------------------------//
+// To rotate an array by K places to the right, we can use a temporary array to store
+// the last K elements of the original array, then shift the remaining elements to the right,
+// and finally copy the elements from the temporary array back to the original array.
 function rotateArray(arr, k) {
   let n = arr.length;
   let temp = [];
