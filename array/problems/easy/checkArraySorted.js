@@ -1,3 +1,8 @@
+// question: Check if an array is sorted in ascending order
+
+// -------------------------check if array is sorted-------------------------//
+// To check if an array is sorted in ascending order,
+// we can iterate through the array and compare each element with the next one.
 function sortCheck(arr) {
   let n = arr.length;
   for (let i = 0; i < n - 1; i++) {
