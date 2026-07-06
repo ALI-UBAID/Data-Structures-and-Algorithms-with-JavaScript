@@ -24,7 +24,7 @@ function findMissingNumberOptimal(arr) {
     xor1 ^= arr[i]; // XOR of all the elements in the array
     xor2 ^= i + 1; // XOR of all the elements from 1 to n
   }
-  xor2 ^= xor2 + 1; // XOR of 0 with itself is 0, so we can ignore it
+  xor2 ^= n + 1; // XOR of 0 with itself is 0, so we can ignore it
   return xor1 ^ xor2;
 }
 
