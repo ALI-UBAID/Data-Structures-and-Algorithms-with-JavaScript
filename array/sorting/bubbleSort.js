@@ -1,7 +1,8 @@
 //question : sort an array using bubble sort
 
 //-------------------------bubble sort-------------------------//
-//bubble sort is a simple sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order.
+//bubble sort is a simple sorting algorithm that works by repeatedly swapping
+//the adjacent elements if they are in the wrong order.
 function bubbleSort(arr) {
   let n = arr.length;
   for (let i = n - 1; i > 0; i--) {
